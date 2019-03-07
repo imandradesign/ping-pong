@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+
+#sub-btn {
+  background: linear-gradient(to bottom right, #006699 0%, #66ff66 100%);
+}
+
+#num {
+  max-width: 600px;
+  display: block;
+  margin: auto;
+}
