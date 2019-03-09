@@ -8,6 +8,7 @@ var numList = function(numInput){
   return numArray;
 }
 
+
 $(document).ready(function(){
   $(".result").hide();
 
@@ -19,5 +20,6 @@ $(document).ready(function(){
 
     $("#result-list").text(resultList);
     $(".result").show();
+
   });
 });

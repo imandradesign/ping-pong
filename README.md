@@ -41,6 +41,11 @@ _There aren't any known issues or bugs with this page, but if you experience any
 * The program returns a list on the page.
   * _Example Input: 16_
   * _Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16]_
+* The program removes the previous result when a new number is submitted.
+  * _Example First Input: 4_
+  * _Example First Output: [1, 2, ping, 4]_
+  * _Example Second Input: 3_
+  * _Example Second Output: [1, 2, ping]_
 
 ### Legal
 
