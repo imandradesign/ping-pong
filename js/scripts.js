@@ -1,7 +1,7 @@
 var numArray = [];
 
 var numList = function(numInput){
-  for (i = 0; i <= numInput - 1; i++){
+  for (var i = 0; i <= numInput - 1; i++){
     var newNum = i + 1;
     numArray.push(" " + newNum);
   }
@@ -18,9 +18,6 @@ var numList = function(numInput){
 
   return numArray;
 }
-
-
-
 
 
 $(document).ready(function(){

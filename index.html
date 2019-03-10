@@ -5,6 +5,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link rel="shortcut icon" type="image/png" href="img/paddle.png">
     <title>Ping Pong!</title>
   </head>
   <body>
@@ -12,29 +13,44 @@
       <div class="jumbotron">
         <h2>Ping Pong!</h2>
       </div>
-      <h4>Let's play a game!</h4>
-      <h6>Rules:</h6>
-      <p>Ping Pong will count up to your number from 1 with the following exceptions:
-        <div class="list">
-          <ol>
-            <li>Numbers divisible by 3 become "ping"</li>
-            <li>Numbers divisible by 5 become "pong"</li>
-            <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-          </ol>
-        </div>
-      </p>
-      <div class="input-form">
-        <form>
-          <div class="form-group">
-            <label for="num">Enter your number here:</label>
-            <input type="number" class="form-control" id="num">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="sidebar">
+            <h4>About Ping Pong</h4>
+            <h6>Created by:</h6>
+            <p>Imandra McKenzie</p>
+            <h6>Github Username:</h6>
+            <p><a href="https://github.com/imandradesign" target="_blank">imandradesign</a></p>
+            <h6>Creation date:</h6>
+            <p>March 2019</p>
           </div>
-          <button type="submit" class="btn" id="sub-btn">Play!</button>
-        </form>
-      </div>
+        </div>
+        <div class="col-md-9">
+          <h4 id="game">Let's play a game!</h4>
+          <h5>Rules:</h5>
+          <p>Ping Pong will count up to your number from 1 with the following exceptions:
+            <div class="list">
+              <ol>
+                <li>Numbers divisible by 3 become "ping"</li>
+                <li>Numbers divisible by 5 become "pong"</li>
+                <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+              </ol>
+            </div>
+          </p>
+          <div class="input-form">
+            <form>
+              <div class="form-group">
+                <label for="num">Enter your number here:</label>
+                <input type="number" class="form-control" id="num" max="10000">
+              </div>
+              <button type="submit" class="btn" id="sub-btn">Play!</button>
+            </form>
+          </div>
 
-      <div class="result">
-        <h6><span id="result-list"></span></h6>
+          <div class="result">
+            <h6><span id="result-list"></span></h6>
+          </div>
+        </div>
       </div>
     </div>
   </body>
