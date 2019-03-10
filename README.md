@@ -1,12 +1,12 @@
 # _Ping Pong_
 
-#### _This application takes user input and . Latest version: March 2019_
+#### _This application takes a number input from the user and returns a list that counts from 1 to the user number with some list items being replaced by specific words depending on what they're divisible by. Latest version: March 2019_
 
 #### By _**Imandra McKenzie**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_After the user inputs a number the program returns a list counting from 1 to the user number. All numbers divisible by 3 are replaced with the word "ping". All numbers divisible by 5 are replaced with the word "pong". And all numbers divisible by 15 are replaced with the word "pingpong". The field can take any integer between 1 and 10,000._
 
 ## Setup/Installation Requirements
 
